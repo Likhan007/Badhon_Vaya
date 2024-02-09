@@ -1,0 +1,415 @@
+:root {
+    --global-margin: 0 15rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Calibri";
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.banner {
+    background-color: #404040;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner-para-1 {
+    font-size: 72px;
+    color: #00b050;
+    font-weight: 300;
+    font-family: "Calibri";
+    margin-top: 1rem;
+}
+
+.banner-para-2 {
+    font-size: 41px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Calibri";
+    margin-bottom: 2rem;
+}
+
+.banner-para-3 {
+    font-size: 41px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Calibri";
+    background-color: #008000;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.banner-para-4{
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Calibri";
+    background-color: #008000;
+    padding: 0 5px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.banner img {
+    margin: 0.8rem;
+}
+
+
+.explain {
+    display: flex;
+    /* margin: var(--global-margin); */
+    /* margin-block: 5rem; */
+}
+
+.exp-container {
+    display: flex;
+    width: 75%;
+    margin: 2rem auto;
+
+}
+
+
+.explain img {
+    width: 40%;
+}
+
+
+
+.explain_txt_top {
+    border: 2px solid #4472c4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 70%;
+    gap: 3rem;
+    padding: 0px;
+}
+
+.explain_txt_top h2 {
+    font-size: 2.1rem;
+    color: #00b050;
+    font-weight: bold;
+}
+
+.exp_para {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #374151;
+    max-width: 70%;
+}
+
+.explain_txt {
+    padding-top: 1rem;
+    padding: 1rem 5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid #4472c4;
+    margin: 2rem 0;
+    
+}
+
+.explain_txt h2 {
+    margin: 1rem 0;
+    font-size: 2.1rem;
+    color: #00b050;
+    font-weight: bold;
+}
+
+.explain_txt p {
+    font-size: 24px;
+    margin-bottom: 1rem;
+    color: #374151;
+}
+
+.question {
+    background-color: #404040;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin-top: 5rem; */
+}
+
+.question h1 {
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+}
+
+.question h2:nth-child(4) {
+    margin-top: 2rem;
+}
+
+#question_btn {
+    margin-top: 1rem;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Calibri";
+    background-color: #008000;
+    padding: 0 5px;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+
+.schedule_free_call {
+    font-size: 2.3rem;
+    text-align: center;
+    margin: 2rem 0;
+    /* margin-top: 2rem; */
+}
+
+.bottom_explain {
+    margin: 0 auto;
+    width: 75%;
+}
+
+/* fix this */
+.explain_txt.client_list {
+    font-size: 2rem;
+    /* padding: 1rem 0; */
+    flex-direction: row;
+    /* gap: 1.5rem; */
+    justify-content: space-around;
+}
+
+
+.explain_txt2 {
+    /* padding-top: 2rem; */
+    padding-bottom: 1rem;
+    row-gap: 2rem;
+    margin: 2rem 0rem;
+}
+
+.explain_txt4 {
+    background-color: rgba(151, 149, 147, 0.247);
+    padding: 1rem 1rem;
+    margin: 2rem 0rem;
+    border: none;
+    font-size: 40px;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 300;
+}
+
+.medias {
+    display: flex;
+    justify-content: space-between;
+    margin: var(--global-margin);
+    margin-bottom: 2rem;
+}
+
+.media_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.media_box img {
+    width: 60px;
+}
+
+.media_box p {
+    text-align: center;
+}
+
+.question2 h1 {
+    margin-bottom: 1rem;
+}
+
+.question2 p {
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.question3 {
+    padding: 2rem 0;
+}
+
+.question3 p {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.question3 img{
+    margin-top: 1rem;
+}
+
+
+.claim_offer2{
+    background-color: #008000;
+    padding: 1px 5px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.our_client h2{
+    margin: 0;
+}
+
+
+
+
+/* MEDIA QUERRIES */
+
+@media screen and (max-width: 1280px) {
+    /* :root{
+        ---global-margin:0 5rem;
+    } */
+
+    .banner img {
+        margin-top: 0;
+    }
+
+    .banner-para-1 {
+        font-size: 55px;
+    }
+
+    .banner-para-2,
+    .banner-para-3 {
+        font-size: 30px;
+    }
+
+    .question3 p {
+        margin: 0 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .banner-para-3 {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .exp_para {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    :root {
+        --global-margin: 0 5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* here need to change the image */
+    .exp-container {
+        flex-direction: column;
+    }
+
+    .explain img {
+        width: 40%;
+        margin: 0 auto;
+        margin-bottom: 0px;
+        margin-bottom: 2rem;
+    }
+
+    .explain_txt_top {
+        max-width: 100%;
+        gap: 1rem;
+        padding: 1rem 0;
+    }
+
+    .exp_para {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    :root {
+        --global-margin: 0 4rem;
+    }
+
+    .banner-para-2 {
+        text-align: center;
+    }
+
+    .explain_txt {
+        padding: 0 3rem;
+    }
+
+    .explain_txt p {
+        font-size: 20px;
+    }
+
+    .explain_txt2 p {
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+
+    .explain_txt4 {
+        font-size: 32px;
+    }
+
+    .question2 {
+        padding: 0;
+        padding: 0 2rem;
+    }
+
+    .question3 p {
+        font-size: 1.1rem;
+    }
+
+    .schedule_free_call {
+        font-size: 1.7rem;
+    }
+
+    .banner-para-1 {
+        font-size: 40px;
+    }
+
+    .banner-para-2,
+    .banner-para-3 {
+        font-size: 20px;
+    }
+
+
+    .medias {
+        flex-wrap: wrap;
+    }
+
+    .media_box {
+        width: 50%;
+        margin-bottom: 1.2rem;
+        /* Adjust spacing between rows */
+    }
+}
+
+
+@media screen and (max-width: 560px) {
+    :root {
+        --global-margin: 0 1rem;
+    }
+
+    .exp-container {
+        width: 95%;
+    }
+    .bottom_explain {
+        margin: 0 auto;
+        width: 95%;
+    }
+    .banner-para-2 {
+        font-size: 18px;
+      }
+
+      .schedule_free_call {
+        font-size: 1.5rem;
+    }
+}
