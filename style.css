@@ -42,12 +42,12 @@
 }
 
 .banner-para-3 {
-    font-size: 41px;
+    font-size: 35px;
     color: #ffffff;
     font-weight: 300;
     font-family: "Calibri";
     background-color: #008000;
-    padding: 0 5px;
+    padding: 5px 15px;
     cursor: pointer;
 }
 
