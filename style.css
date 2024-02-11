@@ -51,7 +51,7 @@
     cursor: pointer;
 }
 
-.banner-para-4{
+.banner-para-4 {
     font-size: 24px;
     color: #ffffff;
     font-weight: 300;
@@ -120,7 +120,7 @@
     text-align: center;
     border: 2px solid #4472c4;
     margin: 2rem 0;
-    
+
 }
 
 .explain_txt h2 {
@@ -242,23 +242,24 @@
     font-size: 1.3rem;
 }
 
-.question3 img{
+.question3 img {
     margin-top: 1rem;
 }
 
 
 
-.claim_offer{
+.claim_offer {
     border-radius: 5px;
 }
 
-.claim_offer:hover,.claim_offer2:hover{
+.claim_offer:hover,
+.claim_offer2:hover {
     /* scale: 1.01; */
     background-color: #017227;
     transition-duration: 500ms;
 }
 
-.claim_offer2{
+.claim_offer2 {
     background-color: #008000;
     padding: 1px 5px;
     font-weight: 300;
@@ -269,7 +270,7 @@
 }
 
 
-.our_client h2{
+.our_client h2 {
     margin: 0;
 }
 
@@ -278,11 +279,12 @@
 
 /* MEDIA QUERRIES */
 
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 1440px) {
     .explain_txt_top {
         max-width: 80%;
         gap: 1.2rem;
     }
+
     .exp_para {
         max-width: 90%;
     }
@@ -320,20 +322,21 @@
     .exp_para {
         font-size: 1.2rem;
     }
+
     .question h1 {
         margin-top: 1.2rem;
         margin-bottom: 1.5rem;
     }
 
-    .question_phn{
+    .question_phn {
         margin-top: 1rem;
     }
-    
+
     #question_btn {
         margin-bottom: 1.2rem;
     }
 
-    .question3{
+    .question3 {
         padding: 1.2rem 0;
     }
 }
@@ -348,7 +351,7 @@
         margin: 2rem auto;
     }
 
-    
+
 }
 
 @media screen and (max-width: 768px) {
@@ -445,15 +448,59 @@
     .exp-container {
         width: 95%;
     }
+
     .bottom_explain {
         margin: 0 auto;
         width: 95%;
     }
+
     .banner-para-2 {
         font-size: 23px;
-      }
+    }
 
-      .schedule_free_call {
+    .schedule_free_call {
         font-size: 1.5rem;
+    }
+
+    .explain_txt.client_list {
+        font-size: 2rem;
+    }
+
+    .question h1 {
+        font-size: 1.8rem;
+    }
+
+    .question p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .banner-para-2 {
+        font-size: 17px;
+    }
+
+    .claim_offer {
+        font-size: 20px;
+    }
+
+    .explain_txt_top h2 {
+        font-size: 30px;
+    }
+
+    .exp_para {
+        font-size: 17px;
+    }
+
+    #question_btn {
+        font-size: 20px;
+    }
+
+    .schedule_free_call {
+        font-size: 1.3rem;
+    }
+
+    .explain_txt {
+        padding: 0 1rem;
     }
 }
